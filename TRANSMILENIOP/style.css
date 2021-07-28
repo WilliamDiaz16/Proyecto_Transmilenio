@@ -1,0 +1,23 @@
+body {
+    margin: 0em;
+  }
+  
+  .cover {
+    
+    height:400px;
+    background-image:url(https://cdn.glitch.com/f460515f-9f7d-4cd7-98c2-b7ba7e15f3f8%2FT-2.jpg?v=1626037040506);
+    color:white;
+    background-size:cover;
+    background-position:center;
+    background-color:rgba(0,0,0,0,5);
+    background-blend-mode: darken;
+    
+  }
+  .texto-borde {
+    -webkit-text-stroke: 1px black;
+    color: white; 
+  }
+  .card{
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+  }
